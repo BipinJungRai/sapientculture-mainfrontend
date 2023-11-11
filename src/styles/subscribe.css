@@ -1,0 +1,69 @@
+
+
+.subscribe-container {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image2{
+    width: 125px;
+}
+
+.logo2{
+    font-size: 2rem;
+    color:#fff;
+    /* font-family: 'Italiana', serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 3px;   
+    border-radius: 1px;
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+    font-family: 'Italiana', serif;
+    width: 350px;
+    background-color: black;
+    color: #929292;  
+    border: 3px solid #929292;
+}
+
+.msg {
+    color: #fff;
+    font-family: 'Italiana', serif;
+    font-size: 0.9rem;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .subscribe-form input {        
+        width: 240px;
+       
+    }
+}
